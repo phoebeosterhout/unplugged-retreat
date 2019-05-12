@@ -7,7 +7,7 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
- 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -103,18 +103,227 @@ textarea {
    ========================================================================== */
 
 
+/* -------- BASE HEADER/FOOTER STYLES -------- */
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 
+/* ------------- HEADER STYLES ------------- */
+
+header {
+
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+
+}
+
+.header-divider {
+
+}
 
 
+/* ------------- HERO AREA ------------- */
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.hero-area .content-wrapper {
+
+}
+
+/* ------------- FORM ------------- */
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------- FEATURES ------------- */
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.features .content-wrapper {
+
+}
+
+.features article {
+
+}
+
+.features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.features-item-description {
+
+}
+
+/* ------------- REVIEWS ------------- */
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews article {
+
+}
+
+.company-name {
+
+}
+
+.review-description {
+
+}
+
+/* ------------- ABOUT PAGE ------------- */
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+address .col-1 {
+
+}
+
+address .col-2 {
+
+}
+
+/* ------------- FAQ PAGE ------------- */
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.question {
+
+}
 
 
+/* ------------- FOOTER STYLES ------------- */
 
+footer {
 
+}
 
+footer .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-content {
 
+}
 
+.contact {
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+
+}
 
 
  /* ==========================================================================
@@ -197,7 +406,7 @@ textarea {
   clear: both;
 }
 
- 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -215,7 +424,7 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -291,5 +500,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
