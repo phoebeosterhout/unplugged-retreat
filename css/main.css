@@ -423,7 +423,7 @@ aside {
         margin: 50px 0;
     }
 
-    aside .content-wrapper .form-description.
+    aside .content-wrapper .form-description,
     aside .content-wrapper .form {
         width: 35%;
         margin: 0;
@@ -461,17 +461,19 @@ aside {
         margin: 100px 0;
     }
 
-    footer .content {
+    footer .footer-content {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    footer .contact {
+    footer address .contact {
         margin-bottom: 0;
     }
 
     footer .copyright {
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
 
@@ -481,14 +483,15 @@ aside {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-flow: row wrap;
     }
 
     .mission-content p {
         width: 40%;
     }
 
-    .contact-section, .content-wrapper h2 {
-        width: 80%;
+    .contact-section .content-wrapper h1 {
+        width: 75%;
     }
 
     .contact-content {
