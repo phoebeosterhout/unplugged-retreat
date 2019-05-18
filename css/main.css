@@ -151,11 +151,11 @@ p {
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -188,6 +188,14 @@ header .content-wrapper {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -256,9 +264,20 @@ footer .copyright {
 /* ------ HERO AREA ------ */
 
 .hero-area {
+    background: url('../img/hero.jpg') center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    height: 600px;
+}
+
+.hero-area .content-wrapper {
+    margin: 50px 0;
+}
+
+.hero-area h1 {
+    margin: 0;
 }
 
 /* ------ ASIDE ------ */
@@ -302,6 +321,8 @@ input[type=button] {
 /* ------ FEATURES ------ */
 
 .features {
+    background: url(../img/features-bkgd.jpg) center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -332,6 +353,10 @@ input[type=button] {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+}
+
+.reviews article figure {
+
 }
 
 .reviews h2 {
@@ -514,6 +539,10 @@ input[type=button] {
         width: 100%;
     }
 
+    header figure {
+        width: 35%;
+    }
+
     header nav {
         width: 23%;
     }
@@ -577,7 +606,15 @@ input[type=button] {
         width: 49%;
     }
 
-    .reviews article h3,
+    .reviews figure {
+        width: 49%;
+    }
+
+    .reviews article h3 {
+        margin: 0;
+        padding-top: 0;
+    }
+    
     .reviews article p {
         margin: 0;
     }
@@ -676,6 +713,10 @@ input[type=button] {
     }
     /* Header */
 
+    header figure {
+        width: 23%;
+    }
+
     header nav {
         width: 16%;
     }
@@ -713,7 +754,7 @@ input[type=button] {
     .reviews article {
         margin-top: 90px;
     }
-    
+
     .reviews article div {
         width: 45%;
     }
